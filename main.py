@@ -1,6 +1,6 @@
 def main():
     numbers = []
-    previous = 10
+    previous = 10000
     
     while True:
         current = int(input('Enter Value: '))
