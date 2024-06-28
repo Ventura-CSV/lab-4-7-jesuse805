@@ -1,6 +1,10 @@
 def main():
     numbers = []
+    previous = 
     
+    while True:
+        current = int(input('Enter Value: ')
+        numbers.append(current)
 
     ########################################
     # Do not delete the return statement
