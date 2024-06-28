@@ -1,10 +1,14 @@
 def main():
     numbers = []
-    previous = 
+    previous = 10
     
     while True:
-        current = int(input('Enter Value: ')
-        numbers.append(current)
+        current = int(input('Enter Value: '))
+        if current < previous:
+            numbers.append(current)
+            previous = current
+        else:
+            break
 
     ########################################
     # Do not delete the return statement
